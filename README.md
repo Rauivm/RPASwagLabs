@@ -11,4 +11,5 @@ Para verificar se a instalação teve sucesso, execute a linha de comando
 robot --version
 
 Para executar esse teste pelo terminal digite:
+
 robot venda.robot
