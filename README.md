@@ -6,6 +6,8 @@ Em máquinas Windows, certifica-se de adiiconar Python ao PATH durante a instala
 Instalar Robot Framework com pip é simples:
 
 pip install robotframework
+
+
 Para verificar se a instalação teve sucesso, execute a linha de comando
 
 robot --version
