@@ -1,4 +1,4 @@
-# RPA SwagLabs
+# SwagLabs / Sauce Demo
 
 ## Introdução
 Esse teste acessa o seguinte "e-commerce" https://saucedemo.com e realiza as seguintes tarefas.
@@ -23,5 +23,4 @@ Para verificar se a instalação teve sucesso, execute a linha de comando
 robot --version
 
 Para executar esse teste pelo terminal digite:
-
 robot venda.robot
