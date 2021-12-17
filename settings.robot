@@ -9,7 +9,7 @@ Start TestCase
     Maximize Browser Window
 
 Finish TestCase
-#	Capture Page Screenshot
+	Capture Page Screenshot
     Close Browser
 
 Login
@@ -18,7 +18,7 @@ Login
     Input Text  ${lPassword}  ${password}
     Click Button  ${lLogin}
 
-Ordenar Itens
+Ordenar Produtos Pelo Valor (Low To High)
     [Arguments]    ${value}
     Select From List By Value   ${lProductSortContainer}  ${value}
 
@@ -35,19 +35,4 @@ Checkout
     Input Text  ${lZipCode}  ${zipcode}
     Click Button  ${lContinue}
     Click Button  ${lFinish}
-
-Preencher formulario
-    [Arguments]    ${vUsername}  ${vPassword}  ${vSort}  ${vFirstName}  ${vLastName}  ${vZipCode}
-    Input Text  ${lUsername}  ${vUsername}
-    Input Text  ${lPassword}  ${vPassword}
-    Click Button  ${lLogin}
-    Select From List By Value   ${lProductSortContainer}  ${vSort}
-    Click Button  ${lAddLabsOnesie}
-    Click Button  ${lTestAllTheThingsTShirtRed}
-    Click Element  ${lCart}
-    Click Button  ${lCheckout}
-    Input Text  ${lFirstName}  ${vFirstName}
-    Input Text  ${lLastName}  ${vLastName}
-    Input Text  ${lZipCode}  ${vZipCode}
-    Click Button  ${lContinue}
-    Click Button  ${lFinish}
+    Capture Element Screenshot  ${Thanks}

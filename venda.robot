@@ -20,7 +20,7 @@ Teste Venda    ${vUsername}  ${vPassword}  ${vSort}  ${vFirstName}  ${vLastName}
 Venda
     [Arguments]    ${username}  ${password}  ${sort}  ${firstname}  ${lastname}  ${zipcode}  ${item 1}  ${item 2}
     Login  ${username}  ${password}
-    Ordenar Itens  ${sort}
+    Ordenar Produtos Pelo Valor (Low To High)  ${sort}
     Adicionar Item  ${item 1}
     Adicionar Item  ${item 2}
     Checkout  ${firstname}  ${lastname}  ${zipcode}

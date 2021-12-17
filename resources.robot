@@ -5,8 +5,8 @@ ${browser}    chrome
 ${vUsername}    standard_user
 ${vPassword}    secret_sauce
 ${vSort}     lohi
-${vFirstName}    Usuario
-${vLastName}     Teste
+${vFirstName}    Raui
+${vLastName}     Macedo
 ${vZipCode}      39401000
 
 #   Locators
@@ -24,3 +24,4 @@ ${lLastname}     xpath://input[@placeholder = 'Last Name']
 ${lZipCode}      xpath://input[@placeholder = 'Zip/Postal Code']
 ${lContinue}     xpath://form/div/input
 ${lFinish}       xpath://button[. = 'Finish']
+${Thanks}        xpath://div[@class ='header_secondary_container']
